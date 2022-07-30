@@ -174,7 +174,7 @@ Success: performed health check for all chains in the config
 
 ## Recover wallets using mnemonic phrase
 Before you proceed with this step, please make sure you have created and funded with tokens seperate wallets on each chain
-replace <insert mnemonic here> with the mnemonic from your wallet
+replace '<insert mnemonic here>' with the mnemonic from your wallet
 ```
 hermes keys restore $CH1_CHAIN_ID -n $CH1_REL_WALLET -m "<insert mnemonics here>"
 hermes keys restore $CH2_CHAIN_ID -n $CH2_REL_WALLET -m  "<insert mnemonics here>"
