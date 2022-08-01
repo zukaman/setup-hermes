@@ -13,7 +13,8 @@ sudo apt install unzip -y
 
 ## Make hermes home dir
 ```
-mkdir $HOME/.hermes
+cd $HOME
+mkdir -p $HOME/.hermes/bin
 ```
 
 ## Download Hermes
